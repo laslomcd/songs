@@ -1,6 +1,6 @@
 export const selectSong = (song) => {
 	return {
-		type: "SONE_SELECTED",
+		type: "SONG_SELECTED",
 		payload: song,
 	};
 };
